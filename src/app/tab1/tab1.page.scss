@@ -1,0 +1,87 @@
+html,
+
+.main {
+    width: 430px;
+    background-color: white;
+    box-shadow: 0 0 22px -2px rgba(0, 0, 0, 0.75);
+    max-height: 100vh;
+    overflow: auto;  
+}
+
+/* 스크롤바 숨기기 */
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+ion-buttons .search-outline {
+    font-size: 25px; 
+    
+  }
+
+
+.main .preview img {
+    width: 430px; 
+    height: 200px; 
+}
+
+.main .container1 img{
+    margin: 10px;
+    width:150px;
+    height:210px;
+
+}
+.main .container2 {
+    display: flex;
+    flex-direction: column; /* 세로 방향 정렬 */
+    margin-bottom: 20px;
+}
+
+.main .container2 img{
+    margin: 20px;
+    width: 50px;
+    height: 80px;
+}
+.movie-item {
+    display: flex;
+    align-items: center; /* 이미지와 텍스트를 세로로 가운데 정렬 */
+}
+.movie-details {
+    display: flex;
+    flex-direction: column; /* 제목과 장르를 세로로 정렬 */
+}
+
+.main .container3 img {
+    margin: 0;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.main .container4 {
+    display: flex;
+    flex-direction: column; /* 세로로 요소를 배치 */
+}
+.main .movie-list4 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.main .container4 img{
+    width: 420px;
+    height: 240px;
+    border-radius: 10px;
+   
+}
+
+.main .container5 img{
+    
+    border-radius: 5px;
+    width: 100px;
+    height: 150px;
+}
+
+
+
+  
