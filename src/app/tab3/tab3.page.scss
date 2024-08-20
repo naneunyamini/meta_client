@@ -1,0 +1,47 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.center-title {
+  text-align: center;
+  width: 100%;
+}
+
+h5 {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #212121;
+    margin-top: 20px;
+}
+.icon-myAccount {
+    display: flex; //아이콘과 텍스트 수평 정렬
+    margin: 20px 20px; 
+    align-items: center; //텍스트와 아이콘 세로 정렬
+    gap: 10px; //아이콘과 텍스트 사이의 간격 조정
+}
+h6{
+    margin: 0;
+}
+
+.icon-notice {
+    display: flex; //아이콘과 텍스트 수평 정렬
+    margin: 30px 20px; 
+    align-items: center; //텍스트와 아이콘 세로 정렬
+    gap: 10px; //아이콘과 텍스트 사이의 간격 조정
+}
+
+.icon-faq {
+    display: flex; //아이콘과 텍스트 수평 정렬
+    margin: 30px 20px; 
+    align-items: center; //텍스트와 아이콘 세로 정렬
+    gap: 10px; //아이콘과 텍스트 사이의 간격 조정
+}
+  
+
